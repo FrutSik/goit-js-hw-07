@@ -53,3 +53,51 @@ body {
   border-radius: 4px;
   padding: 8px 0px 8px 16px;
 }
+
+/* !===========================Task-2========================== */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  list-style: none;
+}
+
+/* !===========================Task-2========================== */
+
+/* !===========================Task-3========================== */
+
+.input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 0px 8px 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:hover {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.input-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* !===========================Task-3========================== */
+
+/* !===========================Task-4========================== */
+
+.login-form {
+  display: flex;
+}
